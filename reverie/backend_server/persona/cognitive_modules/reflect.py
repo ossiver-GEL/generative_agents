@@ -5,7 +5,6 @@ File: reflect.py
 Description: This defines the "Reflect" module for generative agents. 
 """
 import sys
-sys.path.append('../../')
 
 import datetime
 import random

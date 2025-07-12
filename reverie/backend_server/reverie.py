@@ -605,8 +605,10 @@ if __name__ == '__main__':
   #                    "July1_the_ville_isabella_maria_klaus-step-3-21")
   # rs.open_server()
 
-  origin = input("Enter the name of the forked simulation: ").strip()
-  target = input("Enter the name of the new simulation: ").strip()
+  #origin = input("Enter the name of the forked simulation: ").strip()
+  #target = input("Enter the name of the new simulation: ").strip()
+  origin = "base_the_ville_isabella_maria_klaus"
+  target = "test"+datetime.datetime.now().strftime("%m-%d-%H-%M-%S")
 
   rs = ReverieServer(origin, target)
   rs.open_server()
